@@ -1,0 +1,105 @@
+body {
+    background-color: #f2ebe3;
+    width: 87.5rem;
+    margin: 0 6.25rem;
+}
+
+.card{
+    background-color: #fff;
+    height: 28.125rem;
+    width: 37.5rem;
+    position: relative;
+    margin: 6.25rem auto;
+    border-radius: 0.5rem;
+}
+
+.prod_img{    
+    width: 50%;
+    height: 28.125rem;
+    float: left;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.perfume{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+	color: #6c7289;
+	letter-spacing: 0.2rem;
+	font-size: .7rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 21.25rem;
+    
+}
+
+.title{
+    display: inline-block;
+    width: 35%;
+    font-size: 2.25rem;
+    line-height: 1;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    top: 2rem;
+    left: 21.25rem;
+    
+}
+
+.description{
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: lighter;
+    color: #73777B;
+    width: 38%;
+    text-align: left;
+    position: absolute;
+    left: 21.25rem;
+    top: 10.625rem;
+    line-height: 1.25;
+
+}
+
+.discount_price{
+    display: inline-block;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #5BB318;
+    position: absolute;
+    left: 21.25rem;
+    top: 20rem;
+}
+.original_price{
+    display: inline-block;
+    font-weight: lighter;
+    color: #73777B;
+    position: absolute;
+    left: 27.5rem;
+    top: 20.625rem;
+
+}
+
+.icon{
+    margin-right: 1.25rem;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    border: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.25rem;
+    background: #42855B;
+    padding: 0.625rem 2.5rem;
+    text-decoration: none;
+    position: absolute;
+    top: 23.75rem;
+    left: 21.25rem;
+
+}
+  
+  .btn:hover {
+    background: #274F35;
+    text-decoration: none;
+}
